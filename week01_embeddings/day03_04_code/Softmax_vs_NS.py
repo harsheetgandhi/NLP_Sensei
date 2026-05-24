@@ -49,3 +49,9 @@ print(f"Softmax Time:          {time_softmax:.5f} seconds")
 print(f"Negative Sample Time:  {time_ns:.5f} seconds")
 print("-" * 40)
 print(f"Negative Sampling is roughly {time_softmax / time_ns:.0f}x faster!")
+"""
+Softmax Time:          1.10431 seconds
+Negative Sample Time:  0.05804 seconds
+----------------------------------------
+Negative Sampling is roughly 19x faster!
+"""
