@@ -1,0 +1,4 @@
+Model: Skip-Gram with negative sampling;
+Number of negative examples: for smaller datasets, 15-20; for huge datasets (which are usually used) it can be 2-5.
+Embedding dimensionality: frequently used value is 300, but other variants (e.g., 100 or 50) are also possible. For theoretical explanation of the optimal dimensionality, take a look at the Related Papers section.
+Sliding window (context) size: 5-10.
